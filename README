@@ -1,0 +1,3 @@
+This is simple email microservice for sending email from one inbuild gmail account to the members of the staff.
+Endpoints consume request object, which includes standard text for the email and user data. It's created to send mails for single users or organise mass messaging.
+Second endpoint consumes dictionary since messages are having data from the keys inserted into final message.
