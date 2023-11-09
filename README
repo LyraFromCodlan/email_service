@@ -1,3 +1,15 @@
 This is simple email microservice for sending email from one inbuild gmail account to the members of the staff.
-Endpoints consume request object, which includes standard text for the email and user data. It's created to send mails for single users or organise mass messaging.
-Second endpoint consumes dictionary since messages are having data from the keys inserted into final message.
+Endpoints consume request object, which includes standard text for the email and user data. It's created to send mails for single users or organize mass messaging.
+
+Required:
+- python 3.8+
+- virtual environment package. If not present download it via command 'pip install virtualenv'
+
+Instructions to setup the application:
+1 - create virtual environment with command 'python -m venv *virtual_environmemt_name*'
+2 - activate virtual environment with the command '*virtual_environmemt_name*/scripts/activate
+3 - install all the required libraries with the command 'pip install -r requirements.txt'
+4 - start application with the command 'uvicron main:emailService --reload"
+
+Documentations:
+Documentation about endpoints can be accessed via link localhost:8000/docs
